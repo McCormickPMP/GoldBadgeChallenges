@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\02_Claims_Tests.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\02_Claims_Tests.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\02_Claims_Repository.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\02_Claims_Repository.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\obj\Debug\02_Claims_Tests.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\obj\Debug\02_Claims_Tests.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\obj\Debug\02_Claims_Tests.csproj.CopyComplete
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\obj\Debug\02_Claims_Tests.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Tests\obj\Debug\02_Claims_Tests.pdb

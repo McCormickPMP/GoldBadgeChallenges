@@ -176,13 +176,13 @@ namespace Cafe_Console.UI
             List<string> numTwoIng = new List<string>();
             var numberTwo = new MenuClass(2, "Ceasar Salad", "mmmm parmesan!", 5.95m, numTwoIng);
             numTwoIng.Add("Romaine Lettuce");
-            numTwoIng.Add("Creamy Ceasar Dressing");
+            numTwoIng.Add("Creamy Ceasar Dressing"); 
             numTwoIng.Add("Prepared Table side");
             //Third Item
             List<string> numThreeIng = new List<string>();
             var numberThree = new MenuClass(3, "Chocolate cake", "A 7 layer slice of heaven to end your meal or as a main course", 5.95m, numThreeIng);
             numThreeIng.Add("Decadent Chocolate cake");
-            numThreeIng.Add("chocolate buttercream fillling");
+            numThreeIng.Add("chocolate buttercream filling");
             numThreeIng.Add("chocolate grenache with a dollup of creme fraiche");       
             //Add items to menu
             _menuRepository.AddMenuItem(numberOne);
