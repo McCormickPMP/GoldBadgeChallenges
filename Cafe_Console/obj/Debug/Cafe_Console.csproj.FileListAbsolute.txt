@@ -1,10 +1,10 @@
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Console.exe.config
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Console.exe
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Console.pdb
-C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Classes.dll
-C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Classes.pdb
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\obj\Debug\Cafe_Console.csprojAssemblyReference.cache
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\obj\Debug\Cafe_Console.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\obj\Debug\Cafe_Console.csproj.CopyComplete
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\obj\Debug\Cafe_Console.exe
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\obj\Debug\Cafe_Console.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Classes.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Console\bin\Debug\Cafe_Classes.pdb

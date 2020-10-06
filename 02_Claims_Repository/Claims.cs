@@ -12,7 +12,6 @@ namespace _02_Claims_Repository
         Home,
         Theft
     }
-
     public class ClaimsContent
     {
         public int ClaimId { get; set; }
@@ -22,7 +21,6 @@ namespace _02_Claims_Repository
         public DateTime DateOfAccident { get; set; }
         public DateTime DateOfClaim { get; set; }
         public bool IsValid { get; set; }
-
         public ClaimsContent() { }
         public ClaimsContent(int claimId, TypeOfClaim type, string claimDescription, decimal dollarAmount,
             DateTime dateOfAccident, DateTime dateOfClaim, bool isValid)
@@ -35,6 +33,5 @@ namespace _02_Claims_Repository
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
         }
-
     }
 }

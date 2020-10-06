@@ -1,5 +1,7 @@
-﻿using Cafe_Classes;
+﻿
 using System;
+using Cafe_Console;
+using Cafe_Classes;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,6 @@ namespace Cafe_Console.UI
     public class ProgramUI
     {
         private readonly MenuRepository _menuRepository = new MenuRepository();
-
         public void Run()
         {
             SeedContent();
@@ -52,7 +53,6 @@ namespace Cafe_Console.UI
                         Console.ReadKey();
                         break;
                 }
-
             }
         }
         private void ShowAllMenu()
@@ -68,7 +68,6 @@ namespace Cafe_Console.UI
             }
             Console.WriteLine("Press any key to continue........");
             Console.ReadKey();
-
         }
         private void AddMenuItem()
         {
@@ -144,7 +143,6 @@ namespace Cafe_Console.UI
             Console.WriteLine("Press any key to continue........");
             Console.ReadKey();
         }
-
         private void DisplayMenu(MenuClass menuItem)
         {
             Console.WriteLine($"#{ menuItem.MealNumber}: The {menuItem.MealName}\n" +
@@ -161,8 +159,6 @@ namespace Cafe_Console.UI
                 Console.WriteLine($"      {ingredient}");
             }
         }
-
-
         //Seed Data
         private void SeedContent()
         {//First item
@@ -189,6 +185,5 @@ namespace Cafe_Console.UI
             _menuRepository.AddMenuItem(numberTwo);
             _menuRepository.AddMenuItem(numberThree);
         }
-
     }
 }

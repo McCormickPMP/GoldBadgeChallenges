@@ -12,3 +12,5 @@ C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\obj\Debug\03_Badges_
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\obj\Debug\03_Badges_Tests.csproj.CopyComplete
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\obj\Debug\03_Badges_Tests.dll
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\obj\Debug\03_Badges_Tests.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\bin\Debug\03_Badges_Classes.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\03_Badges_Tests\bin\Debug\03_Badges_Classes.pdb

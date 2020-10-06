@@ -14,7 +14,6 @@ namespace _02_Claims_Tests
             id.ClaimId = 1;
             int expected = 1;
             int actual = id.ClaimId;
-
             Assert.AreEqual(expected, actual);
         }
     }

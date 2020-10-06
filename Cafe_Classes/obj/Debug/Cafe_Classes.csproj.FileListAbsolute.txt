@@ -1,6 +1,6 @@
-C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\bin\Debug\Cafe_Classes.dll
-C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\bin\Debug\Cafe_Classes.pdb
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\obj\Debug\Cafe_Classes.csprojAssemblyReference.cache
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\obj\Debug\Cafe_Classes.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\bin\Debug\Cafe_Classes.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\bin\Debug\Cafe_Classes.pdb
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\obj\Debug\Cafe_Classes.dll
 C:\ElevenFiftyProjects\GB-Komodo_Challenges\Cafe_Classes\obj\Debug\Cafe_Classes.pdb

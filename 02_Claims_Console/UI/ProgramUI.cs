@@ -10,13 +10,11 @@ namespace _02_Claims_Console.UI
     public class ProgramUI
     {
         private readonly ClaimsRepository _claimsRepository = new ClaimsRepository();
-
         public void Run()
         {
             ClaimDirectorySeedList();
             RunMenu();
         }
-
         private void RunMenu()
         {
             bool continueToRun = true;
@@ -27,9 +25,7 @@ namespace _02_Claims_Console.UI
                     "2. Take care of next claim \n" +
                     "3. Enter a new claim \n" +
                     "4. Exit");
-
                 string userInput = Console.ReadLine();
-
                 switch (userInput)
                 {
                     case "1":
@@ -64,7 +60,6 @@ namespace _02_Claims_Console.UI
                 }
             }
         }
-
         private void SeeAll()
         {
             Queue<ClaimsContent> listOfClaims = _claimsRepository.GetClaims();
@@ -82,11 +77,9 @@ namespace _02_Claims_Console.UI
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
-
         private void NextClaim()
         {
             Queue<ClaimsContent> claimsList = _claimsRepository.GetClaims();
-
             while (claimsList.Count > 0)
             {
                 DisplayClaim(claimsList.Peek());
@@ -120,10 +113,8 @@ namespace _02_Claims_Console.UI
         private void NewClaim()
         {
             ClaimsContent claim = new ClaimsContent();
-
             Console.WriteLine("Enter the new Claim ID number: ");
             claim.ClaimId = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("Select a claim type: \n" +
                 "1. Car \n" +
                 "2. Home \n" +
@@ -154,7 +145,6 @@ namespace _02_Claims_Console.UI
             DateTime submitted = Convert.ToDateTime(cDate);
             TimeSpan difference = submitted - accident;
 
-
             if (difference.Days <= 30)
             {
                 Console.WriteLine($"The claim was made {difference.Days} after the accident occurred.\n");
@@ -165,7 +155,6 @@ namespace _02_Claims_Console.UI
                 Console.WriteLine($"The claim was made {difference.Days} after the accident occurred.\n");
                 claim.IsValid = false;
             }
-
             bool added = _claimsRepository.AddClaimToDirectory(claim);
             if (added)
             {
@@ -180,7 +169,6 @@ namespace _02_Claims_Console.UI
                 NewClaim();
             }
         }
-
         private void DisplayClaim(ClaimsContent claim)
         {
             Console.WriteLine($"Claim ID: {claim.ClaimId} \n" +
@@ -192,7 +180,6 @@ namespace _02_Claims_Console.UI
                 $"Is Valid: {claim.IsValid} \n" +
                 $"\n");
         }
-
         private void ClaimDirectorySeedList()
         {
             ClaimsContent firstClaim = new ClaimsContent(1, TypeOfClaim.Car, "Car accident on 465.", 400.00m,

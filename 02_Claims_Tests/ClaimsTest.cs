@@ -17,7 +17,6 @@ namespace _02_Claims_Tests
 
             Assert.IsTrue(addClaim);
         }
-
         [TestMethod]
         public void GetDirectory_Test()
         {
@@ -27,13 +26,10 @@ namespace _02_Claims_Tests
 
             Queue<ClaimsContent> testQueue = repo.GetClaims();
             bool directoryHasClaim = testQueue.Contains(testClaim);
-
             Assert.IsTrue(directoryHasClaim);
         }
-
         private ClaimsContent _claims;
         private ClaimsRepository _repository;
-
         [TestInitialize]
         public void Arrange()
         {
@@ -42,14 +38,12 @@ namespace _02_Claims_Tests
                 new DateTime(2020, 10, 03), new DateTime(2020, 10, 04), true);
             _repository.AddClaimToDirectory(_claims);
         }
-
         [TestMethod]
         public void GetByClaimId_Test()
         {
             ClaimsContent idSearch = _repository.GetClaimById(5);
             Assert.AreEqual(_claims, idSearch);
         }
-
         [TestMethod]
         public void UpdateClaim_Test()
         {

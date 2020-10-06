@@ -56,13 +56,11 @@ namespace Cafe_Classes
             }
             return null;
         }
-
         //Delete a menu item
         public bool DeleteMenuItem(MenuClass existingItem)
         {
             bool deleteResult = _allMenuItems.Remove(existingItem);
             return deleteResult;
         }
-
     }
 }

@@ -19,7 +19,6 @@ namespace _02_Claims_Repository
             bool wasAdded = (_claimsDirectory.Count > startingCount) ? true : false;
             return wasAdded;
         }
-
         public Queue<ClaimsContent> GetClaims()
         {
             return _claimsDirectory;
@@ -28,7 +27,6 @@ namespace _02_Claims_Repository
         public bool UpdateExistingClaim(int originalId, ClaimsContent updatedInfo)
         {
             ClaimsContent oldInfo = GetClaimById(originalId);
-
             if (oldInfo != null)
             {
                 oldInfo.ClaimId = updatedInfo.ClaimId;
@@ -38,7 +36,6 @@ namespace _02_Claims_Repository
                 oldInfo.DateOfAccident = updatedInfo.DateOfAccident;
                 oldInfo.DateOfClaim = updatedInfo.DateOfClaim;
                 oldInfo.IsValid = updatedInfo.IsValid;
-
                 return true;
             }
             else
@@ -54,7 +51,6 @@ namespace _02_Claims_Repository
             bool wasDeleted = (_claimsDirectory.Count < startingCount) ? true : false;
             return wasDeleted;
         }
-
         public ClaimsContent GetClaimById(int id)
             //Needed for UpdateExistingClaim//
         {
@@ -65,7 +61,6 @@ namespace _02_Claims_Repository
                     return claim;
                 }
             }
-
             return null;
         }
     }
