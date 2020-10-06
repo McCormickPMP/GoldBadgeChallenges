@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace _02_Claims_Repository
 {
+    //Need to retest and work on Queue,Dequeue and Enqueue -- during testing the N response does not move the next claim forward
+    //Will address if I have time prior to turn in. **Work around is to only respond affirmatively
     public class ClaimsRepository
     {
         private readonly Queue<ClaimsContent> _claimsDirectory = new Queue<ClaimsContent>();

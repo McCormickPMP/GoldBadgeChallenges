@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\bin\Debug\02_Claims_Console.exe.config
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\bin\Debug\02_Claims_Console.exe
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\bin\Debug\02_Claims_Console.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\bin\Debug\02_Claims_Repository.dll
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\bin\Debug\02_Claims_Repository.pdb
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\obj\Debug\02_Claims_Console.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\obj\Debug\02_Claims_Console.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\obj\Debug\02_Claims_Console.csproj.CopyComplete
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\obj\Debug\02_Claims_Console.exe
+C:\ElevenFiftyProjects\GB-Komodo_Challenges\02_Claims_Console\obj\Debug\02_Claims_Console.pdb
